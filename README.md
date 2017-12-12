@@ -5,7 +5,8 @@ Bootstrap a base Centos Linux system from any GNU distro.
 
 Install
 =======
-
+    # install -m 755 rpm2cpio /usr/local/bin/rpm2cpio
+    # install -m 755 rpmextract.sh /usr/local/bin/rpmextract.sh
     # install -m 755 centos-bootstrap.sh /usr/local/bin/centos-bootstrap
 
 Examples
